@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cookie"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body >
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="nav-item hide-on-small-only">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item active hide-on-small-only">
+            <a href="menu.html">Menu</a>
+          </li>
+
+          <li><h6>Treasury</h6></li>
+
+          <li class="nav-item hide-on-small-only">
+            <a href="offers.html">Offers</a>
+          </li>
+          <li class="nav-item hide-on-small-only">
+            <a href="booking.html">Booking</a>
+          </li>
+        </ul>
+
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <i class="fas fa-bars fa-2x hide-on-med-and-up"></i
+        ></a>
+      </div>
+
+      <!-- mobile nav -->
+      <ul class="sidenav" id="mobile-nav">
+        <li class="nav-item "><a href="index.html">Home</a></li>
+        <li class="nav-item active"><a href="menu.html">Menu</a></li>
+        <li class="nav-item"><a href="offers.html">Offers</a></li>
+        <li class="nav-item"><a href="booking.html">Booking</a></li>
+      </ul>
+    </header>
+
+    <main id="menu">
+        <div class="container">
+
+          
+            <!-- Modal Structure to insert js content -->
+          <div id="modal1" class="modal">
+              <div class="modal-content" id="table-menu">
+                
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+              </div>
+            </div>
+
+
+
+
+          <div class="row">
+            <div class="s12 center">
+              <h4 class="center">OUR FOOD AND DRINKS MENU</h4>
+              <p>Few things come close to the joy of steak and chips - cooked simply with tender, loving care.Which is exactly how we like to do things at Treasury </p>
+              <p>Rest assured that our chefs treat our carefully sourced 30-day aged British and Irish beef with the respect it deserves. Our open kitchen is testimony to that. Whatever your preferred cut - ribeye, fillet, sirloin  or perhaps a chateaubriand between two</p>
+            </div>
+          </div>
+
+          <!-- menu listings -->
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card center">
+                <div class="card-image">
+                 <a href="#"> <img src="img/menu/main.jpeg" alt=""></a>
+                </div>
+                <div class="content">
+                 <span class="card-title"> MAIN MENU </span>
+                <p class="white-text">Discover an exceptional range of delicious dishes courtesy of our magnificent main menu.</p>
+                <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="main-menu">VIEW MENU</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card center">
+                  <div class="card-image">
+                   <a href="#"> <img src="img/menu/lunch.jpeg" alt=""></a>
+                  </div>
+                  <div class="content">
+                   <span class="card-title"> LUNCH MENU </span>
+                  <p class="white-text">We think lunch should be celebrated, that’s why we’ve created our Fixed Price Lunch</p>
+                  <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="lunch-menu">VIEW MENU</a>
+                </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                  <div class="card center">
+                    <div class="card-image">
+                     <a href="#"> <img src="img/menu/kids.jpeg" alt=""></a>
+                    </div>
+                    <div class="content">
+                     <span class="card-title"> KIDS MENU </span>
+                    <p class="white-text">Kids can savour a delicious two-course meal starting from £7.95.</p>
+                    <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="kids-menu">VIEW MENU</a>
+                  </div>
+                  </div>
+                </div>
+
+          </div>
+
+          <!-- 2nd row of menu -->
+          <div class="row">
+              <div class="col s12 m4">
+                <div class="card center">
+                  <div class="card-image">
+                   <a href="#"> <img src="img/menu/gluten-free.jpeg" alt=""></a>
+                  </div>
+                  <div class="content">
+                   <span class="card-title"> GLUTEN-FREE MENU </span>
+                  <p class="white-text">We pride ourselves in being able to offer a special menu to our Coeliac guests.
+                    </p>
+                  <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="gluten-menu">VIEW MENU</a>
+                </div>
+                </div>
+              </div>
+  
+              <div class="col s12 m4">
+                  <div class="card center">
+                    <div class="card-image">
+                     <a href="#"> <img src="img/menu/sunday-special.jpeg" alt=""></a>
+                    </div>
+                    <div class="content">
+                     <span class="card-title"> SUNDAY-SPECIAL MENU </span>
+                    <p class="white-text">Bring the family together, with a truly wonderful Sunday steakhouse dining experience.</p>
+                    <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="sunday-menu">VIEW MENU</a>
+                  </div>
+                  </div>
+                </div>
+  
+                <div class="col s12 m4">
+                    <div class="card center">
+                      <div class="card-image">
+                       <a href="#"> <img src="img/menu/dessert.jpeg" alt=""></a>
+                      </div>
+                      <div class="content">
+                       <span class="card-title"> DESSERTS MENU </span>
+                      <p class="white-text">Conclude your dining experience with a well-deserved treat.</p>
+                      <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="dessert-menu">VIEW MENU</a>
+                    </div>
+                    </div>
+                  </div>
+  
+            </div>
+
+            <!-- 3rd row of menu -->
+            <div class="row">
+                <div class="col s12 m4">
+                  <div class="card center">
+                    <div class="card-image">
+                     <a href="#"> <img src="img/menu/wine.jpeg" alt=""></a>
+                    </div>
+                    <div class="content">
+                     <span class="card-title"> WINE MENU </span>
+                    <p class="white-text">Our cellar is brimming with elegant wines to match your meal by the glass or bottle.</p>
+                    <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="wine-menu">VIEW MENU</a>
+                  </div>
+                  </div>
+                </div>
+    
+                <div class="col s12 m4">
+                    <div class="card center">
+                      <div class="card-image">
+                       <a href="#"> <img src="img/menu/drinks.jpg" alt=""></a>
+                      </div>
+                      <div class="content">
+                       <span class="card-title"> DRINKS MENU </span>
+                      <p class="white-text">On the bar you'll find a selection of quality draught and bottled beers and cocktails </p>
+                      <a class="modal-trigger" data-target="modal1" href="#modal1"  id ="drinks-menu">VIEW MENU</a>
+                    </div>
+                    </div>
+                  </div> 
+    
+              </div>
+
+            
+        </div>
+     
+
+      <!-- Footer section -->
+      <footer>
+          <div class="row footer">
+              <div class="col s12 center">  
+                  <p>               
+                       <a href="#" class="white-text">    <i class="fab fa-facebook fa-3x"></i></a> 
+                          <a href="#" class="white-text"> <i class="fab fa-instagram fa-3x"></i> </a>
+                         <a href="#" class="white-text">   <i class="fab fa-twitter fa-3x"></i> </a>
+                        </p>
+                            <p >
+                              <a href="#" class="white-text">Term & Conditions   |</a>
+                              <a href="#"class="white-text">Privacy Policy      |</a>   
+                              <a href="#" class="white-text">Accessibility</a>  
+                                
+                                <h5 class="font-cookie">Treasury &copy; 2019</h5></p>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
+

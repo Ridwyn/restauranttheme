@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cookie"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="nav-item hide-on-small-only">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item hide-on-small-only">
+            <a href="menu.html">Menu</a>
+          </li>
+
+          <li><h6>Treasury</h6></li>
+
+          <li class="nav-item hide-on-small-only">
+            <a href="offers.html">Offers</a>
+          </li>
+          <li class="nav-item active hide-on-small-only">
+            <a href="booking.html">Booking</a>
+          </li>
+        </ul>
+
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <i class="fas fa-bars fa-2x hide-on-med-and-up"></i
+        ></a>
+      </div>
+
+      <!-- mobile nav -->
+      <ul class="sidenav" id="mobile-nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="menu.html">Menu</a></li>
+        <li class="nav-item"><a href="offers.html">Offers</a></li>
+        <li class="nav-item active"><a href="booking.html">Booking</a></li>
+      </ul>
+    </header>
+
+    <main id="booking">
+        <div class="container">
+            <div class="row">
+                <div class="s12 center">
+                  <h4 class="center">ONLINE BOOKING</h4>
+                  <p>You can reserve a table by using our handy booking tool - simply select your date, time and number of guests. You will receive your confirmation by email and text.</p>
+                </div>
+              </div>
+
+          <!-- HTML5 range -->
+          <!-- <div id="myProgress">
+              <div id="myBar">20%</div>
+            </div> -->
+          
+            <div class="container">
+            <!-- Materilize Select option -->
+            <div class="input-field col s12">
+                <select id="select-people">
+                    <option value="1">1 person </option>
+                    <option value="2">2 people </option>
+                  <option value="3">3 people </option>
+                  <option value="4">4 people </option>
+                  <option value="5">5 people </option>
+                  <option value="6">6 people </option>
+                  <option value="7">7 people </option>
+                </select>
+                <label>HOW MANY PEOPLE?</label>
+              </div>
+
+             <!-- Materialize datepicker -->
+             <div class="col s12">
+               <label for="">CHOOSE YOUR DATE </label>
+            <input type="text" class="datepicker">
+          </div>
+
+        
+          <div class="col s12">
+              <form action="#">
+                  <p>
+                    <label>
+                      <input name="group1" type="radio" checked />
+                      <span>11:30</span>
+                    </label>
+                    <label>
+                      <input name="group1" type="radio" />
+                      <span>12:00</span>
+                    </label>
+                    <label>
+                      <input  name="group1" type="radio"  />
+                      <span>12:30</span>
+                    </label>
+                    <label>
+                      <input name="group1" type="radio" />
+                      <span>13:00</span>
+                    </label>
+                    <label>
+                        <input name="group1" type="radio" />
+                        <span>13:00</span>
+                      </label>
+                      <label>
+                          <input name="group1" type="radio" />
+                          <span>14:00</span>
+                        </label>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>15:00</span>
+                          </label>
+                          <label>
+                              <input name="group1" type="radio" />
+                              <span>16:00</span>
+                            </label>
+                  </p>
+                </form>
+        </div>
+
+        <!-- FOrm for details -->
+        <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+              <div class="input-field col s12">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_email" type="email" class="validate">
+                  <label for="icon_email">Email</label>
+                </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">message</i>
+                <textarea id="icon_message"  class="validate"></textarea>
+                <label for="icon_message">Make a Request</label>
+              </div>
+            </div>
+          </form>
+      </div>
+
+          <!--Next button to go nxt  -->
+          <div class="row">
+             <div class="col s12 center">
+                <a href="#" class="btn" id="nxt-Btn">Confirm</a>
+              </div>
+            </div>
+      </div> 
+        
+
+
+      <!-- Footer section -->
+      <footer>
+          <div class="row footer">
+              <div class="col s12 center">  
+                  <p>               
+                       <a href="#" class="white-text">    <i class="fab fa-facebook fa-3x"></i></a> 
+                          <a href="#" class="white-text"> <i class="fab fa-instagram fa-3x"></i> </a>
+                         <a href="#" class="white-text">   <i class="fab fa-twitter fa-3x"></i> </a>
+                        </p>
+                            <p >
+                              <a href="#" class="white-text">Term & Conditions   |</a>
+                              <a href="#"class="white-text">Privacy Policy      |</a>   
+                              <a href="#" class="white-text">Accessibility</a>  
+                                
+                                <h5 class="font-cookie">Treasury &copy; 2019</h5></p>
+              </div>
+          </div>
+      </footer>
+
+    </main>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
